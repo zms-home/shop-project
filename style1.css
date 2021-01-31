@@ -1,0 +1,44 @@
+:root {
+    --black-color: #222222;
+    --pink-color: #F1E4E6;
+    --pink-dark-color: #F16D7F;
+    --grey-color: #f8f8f8
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header {
+    background-color: var(--black-color);
+}
+
+.header {
+    background-color: var(--black-color);
+}
+
+.header__wrapper {
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__button {
+    background-color: transparent;
+    border: 0;
+    margin: 0 0 0 33px;
